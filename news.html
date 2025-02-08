@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baliburan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <div class="logo">
+                <a href="home.html"><img src="image/logo.png" alt="icon" width="40" style="border-radius: 50%"></a>
+            </div>
+            <div class="title">
+                <a href="home.html"><p class="nav-title">Baliburan</p></a>
+            </div>    
+        </div>
+        <img class="side-nav" src="image/navigation-bar.png" alt="" onclick="openNav()">
+        <div id="mySidenav" class="container-right">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html"><p>Home</p></a>
+            <div class="dropdown">
+                <button class="dropbtn">Destination
+                    <img src="image/caret-down.png">
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="destination.html#pantai">Pantai</a>
+                    <a href="destination.html#kuliner">Kuliner</a>
+                    <a href="destination.html#aktivitas">Aktivitas</a>
+                    <a href="destination.html#rekreasi">Rekreasi</a>
+                  </div>
+            </div>
+            <a href="news.html"><p>News</p></a>
+            <a href="about.html"><p>About</p></a>
+        </div>
+    </div>
+    <div class="content-news">
+        <div class="trending-page">
+            <p class="trending-now">TRENDING NOW:</p>
+            <P class="trending-link"><a target="_blank" href="https://travel.kompas.com/read/2022/08/19/171931727/bali-jadi-destinasi-liburan-paling-bahagia-dunia-2022-kalahkan-dubai">Bali Jadi Destinasi Liburan Paling Bahagia Dunia 2022, Kalahkan Dubai!</a></P>
+        </div>
+        <div class="headline">
+            <div target="_blank" class="headline-1" onclick="window.open('https://money.kompas.com/read/2023/05/28/195600126/dukung-pariwisata-bali-asdp-siap-kembangkan-pelabuhan-gilimanuk', '_blank').focus();" style="cursor:pointer;">
+                <img class="headline-picture" src="image/headline-1.jpg" alt="">
+                <div class="headline-text">
+                    <p class="headline-title-i">Dukung Pariwisata Bali, ASDP Siap Kembangkan Pelabuhan Gilimanuk</p>
+                    <p class="headline-attribute">Kompas.com | 19:56 WIB</p>
+                </div>
+            </div>
+            <div class="headline-child">
+                <div target="_blank" class="headline-2" onclick="window.open('https://travel.kompas.com/read/2022/12/24/102034727/wisata-ke-pura-ulun-danu-bedugul-bali-bisa-lihat-parade-gebogan', '_blank').focus();" style="cursor:pointer;">
+                    <img class="headline-picture" src="image/headline-2.jpg" alt="">
+                    <div class="headline-text">
+                        <p class="headline-title-ii">Wisata ke Pura Ulun Danu Bedugul Bali Bisa Lihat Parade Gebogan</p>
+                    </div>
+                </div>
+                <div class="headline-grandchild">
+                    <div target="_blank" class="headline-3" onclick="window.open('https://travel.kompas.com/read/2022/10/14/182831127/bali-masuk-daftar-pulau-terbaik-versi-readers-choice-awards-2022', '_blank').focus();" style="cursor:pointer;">
+                        <img class="headline-picture" src="image/headline-3.jpg" alt="">
+                        <div class="headline-text">
+                            <p class="headline-title-iii">Bali Masuk Daftar Pulau Terbaik Versi Readers' Choice Awards 2022</p>
+                        </div>
+                    </div>
+                    <div target="_blank" class="headline-4" onclick="window.open('https://travel.kompas.com/read/2021/09/14/200800527/taman-dedari-di-bali-wisata-baru-dengan-kemegahan-puluhan-patung-batu', '_blank').focus();" style="cursor:pointer;">
+                        <img class="headline-picture" src="image/headline-4.jpg" alt="">
+                        <div class="headline-text">
+                            <p class="headline-title-iii">Taman Dedari di Bali, Wisata Baru dengan Kemegahan Puluhan Patung Batu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="latest-news-title">
+            <p>Popular News</p>
+        </div>
+        
+        <div class="latest-news">
+            <div class="news">
+                <div class="news-picture">
+                    <img src="image/news-1.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Minggu, 02 April 2023 | Suara.com</p>
+                    <p class="news-headline">Selain Diving, AquaNest Experience Ajak Wisatawan Rawat Terumbu Karang</p>
+                    <p class="news-description"> Setelah pandemi Covid-19, pariwisata Bali berangsur-angsur tumbuh kembali...</p>
+                    <a class="read-more" target="_blank" href="https://denpasar.suara.com/read/2023/04/02/180000/selain-diving-aquanest-experience-ajak-wisatawan-rawat-terumbu-karang">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-picture">
+                    <img src="image/news-2.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Jum'at, 17 Februari 2023 | Sindonews.com</p>
+                    <p class="news-headline">Dukung Pariwisata Bali, Yayasan Puri Kauhan Ubud Rilis Buku dan Film Pendek tentang Budaya</p>
+                    <p class="news-description">Yayasan Puri Kauhan Ubud meluncurkan tiga buku dan lima film pendek...</p>
+                    <a class="read-more" target="_blank" href="https://lifestyle.sindonews.com/read/1025831/166/dukung-pariwisata-bali-yayasan-puri-kauhan-ubud-rilis-buku-dan-film-pendek-tentang-budaya-1676642575">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-picture">
+                    <img src="image/news-3.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Jum'at, 17 Februari 2023 | Sindonews.com</p>
+                    <p class="news-headline">Desa Wisata Berbasis Heritage dan Alam Berpotensi Tingkatkan Kunjungan di Bali</p>
+                    <p class="news-description">Pemuliaan air yang bersamaan dengan pelestarian heritage sekitar sungai...</p>
+                    <a class="read-more" target="_blank" href="https://lifestyle.sindonews.com/read/1025797/156/desa-wisata-berbasis-heritage-dan-alam-berpotensi-tingkatkan-kunjungan-di-bali-1676642525">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-picture">
+                    <img src="image/news-4.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Senin, 28 November 2022 | Sindonews.com</p>
+                    <p class="news-headline">Gandeng Kemenkes, Kemenparekraf Gencarkan Pembangunan Health Tourism di Bali</p>
+                    <p class="news-description">Kementerian Pariwisata dan Ekonomi Kreatif melalui kolaborasi dengan...</p>
+                    <a class="read-more" target="_blank" href="https://lifestyle.sindonews.com/read/954409/156/gandeng-kemenkes-kemenparekraf-gencarkan-pembangunan-health-tourism-di-bali-1669644702">Selengkapnya</a>
+                </div>
+            </div>
+            <button class="load-more" onclick="loadMore()">Load More</button>
+            <div class="news none">
+                <div class="news-picture">
+                    <img src="image/news-5.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Selasa, 21 Maret 2023 | Sindonews.com</p>
+                    <p class="news-headline">7 Fakta Hari Raya Nyepi di Bali, Ada Tradisi Saling Cium</p>
+                    <p class="news-description">Hari Raya Nyepi merupakan hari besar keagamaan umat hindu. Perayaan ini sangat kental di Bali dan terdapat...</p>
+                    <a class="read-more" target="_blank" href="https://lifestyle.sindonews.com/read/1052419/166/7-fakta-hari-raya-nyepi-di-bali-ada-tradisi-saling-cium-1679378610">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="news none">
+                <div class="news-picture">
+                    <img src="image/news-6.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Senin, 16 Januari 2023 | Tempo.co</p>
+                    <p class="news-headline">Erick Thohir dan Megawati ke Sanur Perkuat Ikon Pariwisata Bali</p>
+                    <p class="news-description">Megawati Soekarno Putri dan Menteri Badan Usaha Milik Negara (BUMN) Erick Thohir meninjau warisan Presiden...</p>
+                    <a class="read-more" target="_blank" href="https://bisnis.tempo.co/read/1680118/erick-thohir-dan-megawati-ke-sanur-perkuat-ikon-pariwisata-bali#google_vignette">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="news none">
+                <div class="news-picture">
+                    <img src="image/news-7.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Rabu, 29 September 2022 | Kompas.com</p>
+                    <p class="news-headline">Perlahan Pulih dari Pandemi, Tari Kecak Uluwatu Ditonton 1.200 Orang Sehari</p>
+                    <p class="news-description">Riuhnya tepuk tangan 1.215 penonton, yang 70 persennya wisatawan...</p>
+                    <a class="read-more" target="_blank" href="https://travel.kompas.com/read/2022/09/28/070500427/perlahan-pulih-dari-pandemi-tari-kecak-uluwatu-ditonton-1200-orang-sehari">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="news none">
+                <div class="news-picture">
+                    <img src="image/news-8.jpeg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Sabtu, 20 Agustus 2022 | Kompas.com</p>
+                    <p class="news-headline">Desa Wisata Sudaji, Desa Tua yang Punya Tempat Healing di Bali</p>
+                    <p class="news-description">Konon, Desa Wisata Sudaji di Kabupaten Buleleng, Bali, merupakan salah satu desa tua. Namanya berawal dari Sari Aji...</p>
+                    <a class="read-more" target="_blank" href="https://travel.kompas.com/read/2022/08/20/073300927/desa-wisata-sudaji-desa-tua-yang-punya-tempat-healing-di-bali">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="news none">
+                <div class="news-picture">
+                    <img src="image/news-9.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Senin, 2 Januari 2023 | Kompas.com</p>
+                    <p class="news-headline">Sandiaga Uno Targetkan 4 Juta Wisatawan Mancanegara Kunjungi Bali pada 2023</p>
+                    <p class="news-description">Menteri Pariwisata dan Ekonomi Kreatif RI Sandiaga Salahuddin Uno menargetkan...</p>
+                    <a class="read-more" target="_blank" href="https://denpasar.kompas.com/read/2023/01/02/141139278/sandiaga-uno-targetkan-4-juta-wisatawan-mancanegara-kunjungi-bali-pada-2023">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="news none">
+                <div class="news-picture">
+                    <img src="image/news-10.jpg" alt="">
+                </div>
+                <div class="news-attribute">
+                    <p class="news-date">Kamis, 11 Agustus 2023 | Kompas.com</p>
+                    <p class="news-headline">Syarat Melihat Ikan Mola-mola di Nusa Penida Bali, Jangan Sentuh</p>
+                    <p class="news-description">Menyelam untuk melihat ikan mola-mola atau sunfish menjadi salah satu aktivitas wisata yang bisa dilakukan di Nusa...</p>
+                    <a class="read-more" target="_blank" href="https://travel.kompas.com/read/2022/08/11/090335127/syarat-melihat-ikan-mola-mola-di-nusa-penida-bali-jangan-sentuh">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="footer-header">Baliburan</p>
+        <div class="footer-desc">
+            <p><span class="darken">Mau liburan ke Bali, tapi gak tau apa-apa?</span></p>
+            <p><a href="home.html">Baliburan</a><span class="darken"> solusinya!</span></p>
+        </div>
+        <div class="social-media">
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-facebook"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-twitter"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-instagram"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-youtube"></a></div>
+        </div>
+        <p class="footer-cr">Copyright ©2023 Baliburan. Designed by <a target="_blank" href="https://www.instagram.com/filbertnaldo_/">iZek</a></p>
+    </div>
+    <script>
+        for(let i = 0; i < 6; i++){
+        document.querySelectorAll('.none')[i].style.display = 'none';
+    }
+
+        function loadMore() {
+        document.querySelector('.load-more').style.display = 'none';
+        for(let i = 0; i < 6; i++){
+            document.querySelectorAll('.none')[i].style.display = 'flex';
+        }
+    }
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baliburan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/site.webmanifest">
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <div class="logo">
+                <a href="home.html"><img src="image/logo.png" alt="icon" width="40" style="border-radius: 50%"></a>
+            </div>
+            <div class="title">
+                <a href="home.html"><p class="nav-title">Baliburan</p></a>
+            </div>    
+        </div>
+        <img class="side-nav" src="image/navigation-bar.png" alt="" onclick="openNav()">
+        <div id="mySidenav" class="container-right">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html"><p>Home</p></a>
+            <div class="dropdown">
+                <button class="dropbtn">Destination
+                    <img src="image/caret-down.png">
+                </button>
+                <div class="dropdown-content">
+                    <a href="destination.html#pantai">Pantai</a>
+                    <a href="destination.html#kuliner">Kuliner</a>
+                    <a href="destination.html#aktivitas">Aktivitas</a>
+                    <a href="destination.html#rekreasi">Rekreasi</a>
+                </div>
+            </div>
+            <a href="news.html"><p>News</p></a>
+            <a href="about.html"><p>About</p></a>
+        </div>
+    </div>
+    
+    <div class="content-home">
+        <div class="header-home">
+            <div class="header-home-content">
+                <p class="welcoming-word">Welcome to Bali</p>
+                <div class="nickname">
+                    <p>The Island of Gods</p>
+                </div>
+                <div class="desc-home"">
+                    <p>
+                        Pulau Bali terkenal dengan julukan sebagai Pulau Dewata atau The Island of Gods karena kentalnya budaya Hindu, seperti banyaknya 
+                        sesaji yang dipersembahkan untuk dewata penjaga di berbagai tempat di Bali.
+                    </p>
+                </div>
+                <a href="destination.html" class="explore-but">Eksplor Sekarang!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="footer-header">Baliburan</p>
+        <div class="footer-desc">
+            <p><span class="darken">Mau liburan ke Bali, tapi gak tau apa-apa?</span></p>
+            <p><a href="home.html">Baliburan</a><span class="darken"> solusinya!</span></p>
+        </div>
+        <div class="social-media">
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-facebook"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-twitter"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-instagram"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-youtube"></a></div>
+        </div>
+        <p class="footer-cr">Copyright ©2023 Baliburan. Designed by <a target="_blank" href="https://www.instagram.com/filbertnaldo_/">iZek</a></p>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>

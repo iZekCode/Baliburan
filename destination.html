@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baliburan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <div class="logo">
+                <a href="home.html"><img src="image/logo.png" alt="icon" width="40" style="border-radius: 50%"></a>
+            </div>
+            <div class="title">
+                <a href="home.html"><p class="nav-title">Baliburan</p></a>
+            </div>    
+        </div>
+        <img class="side-nav" src="image/navigation-bar.png" alt="" onclick="openNav()">
+        <div id="mySidenav" class="container-right">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html"><p>Home</p></a>
+            <div class="dropdown">
+                <button class="dropbtn">Destination
+                    <img src="image/caret-down.png">
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="destination.html#pantai">Pantai</a>
+                    <a href="destination.html#kuliner">Kuliner</a>
+                    <a href="destination.html#aktivitas">Aktivitas</a>
+                    <a href="destination.html#rekreasi">Rekreasi</a>
+                  </div>
+            </div>
+            <a href="news.html"><p>News</p></a>
+            <a href="about.html"><p>About</p></a>
+        </div>
+    </div>
+    <div class="content-destination">
+        <div id="pantai">
+            <p class="destination-title">Pantai</p>
+            <p class="destination-description">Berikut adalah pantai-pantai yang terkenal di Bali.</p>
+                <div class="details">
+                    <details>
+                        <summary>Pantai Diamond<span>&#9733;&#9733;&#9733;&#9733;&#9733;</span></summary>
+                        <div class="detail-info">
+                            <div class="detail-image">
+                                <img src="image/pantai1.jpg">
+                            </div>
+                            <div class="detail-description">
+                                <p class="detail-title">Pantai ini dinamai Diamond Beach karena memiliki pemandangan tebing karst yang berbentuk runcing seperti permata. Daya tariknya berasal dari gugusan birunya air laut serta pasir putih yang lembut. Lokasinya sendiri berada di balik tebing bukit, sehingga dikenal sebagai surga tersembunyi.</p>
+                                <p class="detail-address">Alamat: Banjar Pelilit, Desa Pejukutan, Kecamatan Nusa Penida, Kabupaten Klungkung, Bali.</p> 
+                                <p class="detail-price">Harga tiket: Rp 5.000 – Rp 10.000</p>
+                            </div>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Pantai Melasti Ungasan <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                        <div class="detail-info">
+                            <div class="detail-image">
+                                <img src="image/pantai2.jpeg">
+                            </div>
+                            <div class="detail-description">
+                                <p class="detail-title">Pantai ini disebut Pantai Melasti karena kerap menjadi tempat untuk upacara Melasti sebelum hari raya Nyepi oleh warga sekitar. Daya tariknya adalah suasana pantai yang masih sangat alami, dan terdapat banyak spot menarik. Anda bisa melihat pesona pantai dari antara tebing-tebing kapur tinggi.</p>
+                                <p class="detail-address">Alamat: Sebelah selatan Pulau Bali, Desa Ungasan, Kecamatan Kuta Selatan, Kabupaten Bandung, Bali.</p> 
+                                <p class="detail-price">Harga tiket: Gratis – Rp 5.000</p>
+                            </div>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Pantai Sanur <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                        <div class="detail-info">  
+                            <div class="detail-image">
+                                <img src="image/pantai3.jpg">
+                            </div>
+                            <div class="detail-description">
+                                <p class="detail-title">Pantai ini cocok digunakan untuk melihat matahari terbit. Pasir Pantai Sanur berwarna putih dan air lautnya cenderung dangkal. Banyak perahu tradisional berwarna-warni milik para nelayan yang berjejer di pinggir pantai. Banyak aktivitas yang dapat dilakukan, seperti seawalker, snorkeling, scuba diving, bermain kano, dan lainnya.</p>
+                                <p class="detail-address">Alamat: Jalan Kusuma Sari No. 1,  Sanur, Denpasar Selatan, Kota Denpasar Bali.</p> 
+                                <p class="detail-price">Harga tiket: Rp 2.000 – Rp 5.000</p>
+                            </div>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Pantai Suluban <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                        <div class="detail-info">
+                            <div class="detail-image">
+                                <img src="image/pantai4.jpg">
+                            </div>
+                            <div class="detail-description">
+                                <p class="detail-title">Pantai ini dilengkapi dengan tebing terjal dan ombak yang sangat besar, sangat cocok untuk berselancar. Perjalanan sejauh 200 meter menggunakan anak tangga dan jalan sempit yang diapit oleh tebing dan karang putih terbayar dengan keindahan tebing karang dan deburan ombak dari pantai ini.</p>
+                                <p class="detail-address">Alamat: Jl. Labuan Sait - Uluwatu, Pecatu, Kuta Selatan, Kabupaten Badung, Bali.</p> 
+                                <p class="detail-price">Harga tiket: Gratis – Rp 5.000</p>
+                            </div>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Pantai Canggu <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                        <div class="detail-info">
+                            <div class="detail-image">
+                                <img src="image/pantai5.jpg">
+                            </div>
+                            <div class="detail-description">
+                                <p class="detail-title">Hamparan pasir hitam dan ombak yang menyapu karang dengan kuat merupakan daya tarik dari Pantai Canggu membuat pantai ini menjadi tempat favorit bagi para peselancar. Pantai Canggu juga memiliki pemandangan yang sangat indah ketika matahari terbenam dan adapula kegiatan menaiki kuda.</p>
+                                <p class="detail-address">Alamat: Canggu, Kecamatan Kuta Utara, Kabupaten Badung, Bali.</p> 
+                                <p class="detail-price">Harga tiket: Gratis – Rp 5.000</p>
+                            </div>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Pantai Seminyak <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                        <div class="detail-info">
+                            <div class="detail-image">
+                                <img src="image/pantai6.jpeg">
+                            </div>
+                            <div class="detail-description">
+                                <p class="detail-title">Seminyak Bali merupakan salah satu tempat terhits di Bali yang paling bergaya dan mewah. Tempat ini cocok untuk bersantai pada banyak kursi malam dengan payung warna warni sambil menunggu matahari terbenam ditemani alunan live music yang menambah suasana romantis. </p>
+                                <p class="detail-address">Alamat: Jl. Dhyana Pura No. 99, Seminyak, Kuta Utara, Kabupaten Badung, Bali.</p> 
+                                <p class="detail-price">Harga tiket: Gratis</p>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+        </div>
+
+        <div id="kuliner">
+            <p class="destination-title">Kuliner</p>
+            <p class="destination-description">Berikut adalah makanan-makanan yang terkenal di Bali</p>
+            <div class="details">
+                <details>
+                    <summary>Bebek Bengil Ubud <span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/kuliner1.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Sajian utama bebek goreng adalah menu unggulan yang sudah ada sejak tahun 1990 dan disajikan dengan nasi putih lengkap bersama sambal lawar dan matah atau dengan kentang tumis dan salad. Restoran ini memiliki suasana nyaman dan teduh karena pemandangan hijau dari area sawah.</p>
+                            <p class="detail-address">Alamat: Padang Tegal, Jl. Hanoman, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali.</p> 
+                            <p class="detail-price">Harga makanan: Rp 71.000 - Rp 214.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Naughty Nuri’s Seminyak<span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/kuliner2.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Menu andalan dari Naughty Nuri’s yang sudah melegenda adalah Pork Spare Ribs atau Iga Babi Panggang yang dilumuri dengan kombinasi bumbu BBQ dan rempah-rempah khas Bali. Daging dari ribs sangat lembut dan lepas dari tulang dengan sangat mudah. </p>
+                            <p class="detail-address">Alamat: Jalan Mertanadi No. 62 Kerobokan, Seminyak, Kerobokan Kelod, Kecamatan Kuta Utara, Kabupaten Badung, Bali.</p> 
+                            <p class="detail-price">Harga makanan: Rp 71.000 - Rp 286.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Sate Babi Bawah Pohon<span> &#9733;&#9733;&#9733;&#9733;&#9733;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/kuliner3.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Sate babi bawah pohon ini dagingnya sudah dibumbui terlebih dahulu sebelum di bakar. Dan saat sudah matang, sate yang sudah dibakar akan ditaruh di piring dengan garam dan cabe rawit bali. Dagingnya empuk, manis, dan bumbunya sangat terasa. Menu lain seperti soto babi juga terkenal disini.</p>
+                            <p class="detail-address">Alamat: Jalan Dewi Sri IV Campuhan I No.I, Legian, Kuta, Kabupaten Badung, Bali.</p> 
+                            <p class="detail-price">Harga makanan: Rp 50.000 - Rp 100.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Menega Cafe<span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/kuliner4.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Menega Cafe merupakan surganya seafood ketika berada di Jimbaran Bali. Ada pilihan tempat indoor ataupun outdoor. Tetapi untuk mendapatkan pemandangan laut dan sunset lebih baik bagian outdoor. Bumbunya hanya satu yaitu dipanggang, kecuali cumi bisa diberikan tambahan tepung.</p>
+                            <p class="detail-address">Alamat: Jl. Four Seasons Muaya Beach, Jimbaran, Kuta Selatan, Kabupaten Badung, Bali.</p> 
+                            <p class="detail-price">Harga makanan: Rp 65.000 - Rp 270.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Babi Guling Pak Malen<span> &#9733;&#9733;&#9733;&#9733;&#9733;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/kuliner5.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Warung Babi Guling Pak Malen menyediakan opsi nasi babi guling dengan 3 pilihan, yaitu nasi babi guling spesial pisah, nasi babi guling spesial, serta nasi babi guling campur. Tampilan nasi babi guling di sini seperti nasi campur dengan lauk sate lilit, lawar, kerupuk, serta beragam lauk lainnya.</p>
+                            <p class="detail-address">Alamat: Sunset Road No. 554, Seminyak, Kecamatan Kuta Selatan, Kabupaten Badung, Bali.</p> 
+                            <p class="detail-price">Harga makanan: Rp 30.000 - Rp 65.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Ayam Betutu Gilimanuk<span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/kuliner6.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Ayam Betutu Khas Gilimanuk Bali, merupakan hidangan lauk yang di buat dari ayam utuh diisi bumbu, dan di masak dengan dipanggang dalam api sekam. Masakan ini di sajikan dengan kuah yang di siram di atas daging ayam dengan nasi, plecing kangkung, kacang tanah yang di goreng dan sambal mentah.</p>
+                            <p class="detail-address">Alamat: Jl. Rajawali, Gilimanuk, Kec. Melaya, Kabupaten Jembrana, Bali.</p> 
+                            <p class="detail-price">Harga makanan: Rp 37.000 - Rp 120.000</p>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <div id="aktivitas">
+            <p class="destination-title">Aktivitas</p>
+            <p class="destination-description">Berikut adalah aktivitas-aktivitas yang dapat kalian lakukan di Bali</p>
+            <div class="details">
+                <details>
+                    <summary>Pantai Tanjung Benoa <span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/aktivitas1.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Begitu banyak kesenangan yang bisa anda dapatkan selama di Tanjung Benoa Beach. Mulai dari pesona pantainya yang dilengkapi dengan hamparan pasir putih hingga berbagai pilihan watersports seperti banana boat, ski air, parasailing, scuba diving, seawalker, snorkeling dan masih banyak lagi. </p>
+                            <p class="detail-address">Alamat: Kelurahan Tanjung Benoa, Kecamatan Kuta Selatan, Kabupaten Badung, Bali Selatan.</p> 
+                            <p class="detail-price">Harga tiket: Rp 70.000 - Rp 600.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Splash Waterpark<span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/aktivitas2.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Terdapat banyak wahana yang siap memacu adrenalin dan memanjakan liburan seru kamu selama di Bali, seperti Giant Racer, Speed Racer, Splash Playground, Crazy Reek, Big Red, dan lainnya. Semua wahana sudah pasti akan menyenangkan dan diberikan garansi keamanan oleh lifeguard untuk pengunjungnya. </p>
+                            <p class="detail-address">Alamat: Jl. Pantai Berawa, Banjar Tegal Gundul, Canggu, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 230.000 - Rp 350.000 (usia di bawah 3 tahun : gratis)</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>5GX Bali Reverse Bungy <span> &#9733;&#9733;&#9733;&#9733;&#9733;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/aktivitas3.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">5GX Bali merupakan wahana slingshot yang memberikan pengalaman tak terlupakan dalam hidup. Ketika meluncur, anda bisa melambung sejauh 50 meter dengan kecepatan 200 km/jam. Penumpang dapat menikmati keindahan Kota Bali di malam hari dengan cahaya lampunya ataupun sunset yang begitu menawan.</p>
+                            <p class="detail-address">Alamat: Jl. Legian No.99, Kuta, Kabupaten Badung, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 250.000 - Rp 350.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Ayung River Raft and ATV<span> &#9733;&#9733;&#9733;&#9733;&#9733;</summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/aktivitas4.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Ayung River Rafting merupakan wahana arum jeram dengan perahu karet kapasitas 4 orang peserta dan 6 orang peserta. Tiap perahu akan terdapat 1 orang instruktur. Selama kurang lebih 2 jam anda akan mengarungi derasnya sungai Ayung Ubud kurang lebih 12 km. Untuk perjalanan balik, dapat menggunakan ATV ride dengan four quad bike.</p>
+                            <p class="detail-address">Alamat: Jl. Sidakarya, Sidakarya, Denpasar Selatan, Kota Denpasar, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 430.000 - Rp 750.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Uluwatu's Kecak Dance<span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/aktivitas5.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Pertunjukan seni paling ikonik di Bali ini berlangsung di amfiteater puncak tebing di samping Pura Uluwatu. Pertunjukan tari matahari terbenam ini menampilkan api dan vokal manusia digunakan sebagai pengganti instrumen gamelan.</p>
+                            <p class="detail-address">Alamat: Kawasan parkir Pura Uluwatu, Jl. Uluwatu, Pecatu, Kuta Selatan, Kabupaten Badung, Bali. </p> 
+                            <p class="detail-price">Harga tiket: Rp 60.000 - Rp 125.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Cliff Jump Nusa Ceningan<span> &#9733;&#9733;&#9733;&#9733;&#9733;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/aktivitas6.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Cliff jumping point di Nusa Ceningan ini, seiring antusiasme para wisatawan yang ingin merasakan sensasi melompat dari ketinggian tebing sekitar 10 meter dan langsung menceburkan dirinya ke laut, sebuah atraksi berbahaya dan menantang maut.</p>
+                            <p class="detail-address">Alamat: Jl. Sarang Burung, Lembongan, Nusapenida, Kabupaten Klungkung, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 50.000</p>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <div id="rekreasi">
+            <p class="destination-title">Tempat Rekreasi</p>
+            <p class="destination-description">Berikut adalah tempat-tempat rekreasi yang dapat kalian kunjungi di Bali</p>
+            <div class="details">
+                <details>
+                    <summary>Bali Safari and Marine Park<span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/rekreasi1.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Bali Safari and Marine Park adalah taman margasatwa yang memiliki luas 40 hektar. Untuk mengunjungi berbagai area, anda bisa menggunakan bus safari yang disediakan di sana dan terdapat 100 spesies dengan jumlah 400 hewan liar yang hidup bebas di lingkungan yang meniru habitat asli mereka.</p>
+                            <p class="detail-address">Alamat: Jl. Profesor Ida Bagus Mantra Km 19,8, Serongga, Kabupatan Gianyar, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 120.000 - Rp 220.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Garuda Wisnu Kencana<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/rekreasi2.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Kemegahan patung reco raksasa dari dewa wisnu yang sedang menunggangi garuda tidak boleh terlewatkan. Berbagai atraksi menarik bisa disaksikan seperti Tari Kecak, Legong, Tarian Nusantara, Karnaval Bali Kang Cing Wie yang bisa kamu saksikan setiap harinya. </p>
+                            <p class="detail-address">Alamat: Jalan Raya Uluwatu, Ungasan, Kecamatan Kuta Selatan, Kabupaten Badung, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 100.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Pura Lempuyang <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/rekreasi3.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Anda harus menaiki tangga sekitar 1750 untuk mencapai Pura Luhur Lempuyangan, ada beberapa pantangan yang harus dipatuhi saat berkunjung ke tempat wisata tersebut. Disana dapat berfoto dengan pemandangan Gunung Agung, kicauan burung di alam bebas dan banyak kera.</p>
+                            <p class="detail-address">Alamat: Jl. Pura Lempuyang Luhur, Tri Buana, Abang, Kabupaten Karangasem, Bali</p> 
+                            <p class="detail-price">Harga tiket: Rp 50.000 - Rp 100.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Air Terjun Kanto Lampo <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/rekreasi4.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Kamu perlu menuruni sekitar 500 anak tangga untuk dapat sampai ke lokasi. Air terjun ini tidak langsung mengalir ke sungai, karena terkesan agak miring. Bebatuan sekitar air terjun juga berundak-undak, namun kamu bisa naik ke atas batu untuk mendapatkan guyuran air menyegarkan. </p>
+                            <p class="detail-address">Alamat: Jalan Kaliasem, Banjar Kelod Kangin, Desa Beng, Kabupaten Gianyar, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 10.000 - Rp 20.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Pura Ulun Danu <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/rekreasi5.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title"> Pura Ulun Danu Bedugul memiliki bangunan yang unik dengan ciri khas arsitektur Bali, bentuknya menyerupai pagoda dengan jumlah 11 tingkatan pada atap bangunan. Keindahan lain juga didukung oleh pemandangan dari perbukitan dan danau Beratan Bedugul alami yang mengelilingi pura.</p>
+                            <p class="detail-address">Alamat: Danau Beratan, Candikuning, Kecamatan Baturiti, Kabupaten Tabanan, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 20.000 - Rp 30.000</p>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>Tirta Gangga<span> &#9733;&#9733;&#9733;&#9733;&#9734;</span></summary>
+                    <div class="detail-info">
+                        <div class="detail-image">
+                            <img src="image/rekreasi6.jpg">
+                        </div>
+                        <div class="detail-description">
+                            <p class="detail-title">Tirta Gangga Bali merupakan taman air peninggalan Kerajaan Karangasem dan dibangun oleh Raja Karangasem pada tahun 1946 berupa sebuah kebun, kolam air, dan juga patung. Bangunan tertinggi terdapat mata air yang berada di bawah pohon beringin, terdapat kolam renang, air mancur serta kolam air. </p>
+                            <p class="detail-address">Alamat: Jalan Abang Desa Adat, Ababi, Abang, Kabupaten Karangasem, Bali.</p> 
+                            <p class="detail-price">Harga tiket: Rp 10.000 - Rp 25.000</p>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="footer-header">Baliburan</p>
+        <div class="footer-desc">
+            <p><span class="darken">Mau liburan ke Bali, tapi gak tau apa-apa?</span></p>
+            <p><a href="home.html">Baliburan</a><span class="darken"> solusinya!</span></p>
+        </div>
+        <div class="social-media">
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-facebook"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-twitter"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-instagram"></a></div>
+            <div><a target="_blank" href="https://www.instagram.com/filbertnaldo_/" class="fa fa-youtube"></a></div>
+        </div>
+        <p class="footer-cr">Copyright ©2023 Baliburan. Designed by <a target="_blank" href="https://www.instagram.com/filbertnaldo_/">iZek</a></p>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>
